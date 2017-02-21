@@ -1,8 +1,9 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("images/horgi.jpg");
       background-size: cover;
       color: white;
+      background-attachment: fixed;
     }
     .nav {
       color: white;
