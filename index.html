@@ -5,29 +5,55 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="script.js"></script>
 </head>
+
 <body>
   <header>
-    <img id="profile" src="http://theaposition.com/robertfagan/wp-content/uploads/sites/33/2012/08/3Golf-Club.jpg" style="//width:600px;height:200px">
-    <img src= "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmjdCmvJ4C3BSjCZBD4iuSDp4sun7dwOJr8Tv6EhYfR9RuTfUR" alt = "Horgi" style="//width:600px;height:200px">
+    <img id="profile" src="images/Snoopy/redbaron.jpg" style="//width:600px;height:200px">
+    <img src= "images/Snoopy/sitting.jpg"  style="//width:600px;height:200px">
+    <!--alt = "Snoopy"-->
     
     
     <h1>Mina's Portfolio</h1>
     <ul>
       <li><a class="nav" href="">Home</a></li>
-      <li><a class="nav" href="pages/about.html">About</a></li>
-      <li><a class="nav" href="pages/contact.html">Contact</a></li>
+      <li><a class="nav" href="Pages/about.html">About</a></li>
+      <li><a class="nav" href="Pages/contact.html">Contact</a></li>
+      <li><a class="nav" href="Pages/tech.html">News Tech</a></li>
     </ul>
   </header>
+  
+  <img id="intro" src="images/Snoopy/endofday.png" style="width:600px;height:200px">
+  
   <div class="project">
     <h2 class="project-title"> <a href="">My First Webpage</a></h2>
     <p>This is the first project that I made in ScriptEd. I used basic HTML tags.</p>
     <button id="button1">Like</button>
     <p id="like"></p>
   </div>
-<div class="project">
+  <div class="project">
     <h2 class="project-title"> <a href="">Pun-a-thon</a></h2>
-    <p>I made a joke page. I used jQuery.</p>
-    <button id = "button2">Like</button>
+    <p>I made a joke page.</p>
+    <button id = "button2">alt = "HeartSnoopy"</button>
     <p id="like2"></p>
   </div>
+     
+  <div class="project">
+    <label for="Likes"><abbr title="Quantity">Likes</abbr></label>
+        <input id="Likes" value="0" />
+        <button id="up" onclick="modify_qty(1)">+1</button>
+  </div>
+  
+  
+  
+    <div class="item" id="location_postcode_form">
+			<form>
+					<label for="postcode_input">Enter your city</label>
+					<input type="text" id="dog" class="location-postcode" name="postcode_input" />
+			</form>
+					
+		</div>
+  
+  
 </body>
+
+

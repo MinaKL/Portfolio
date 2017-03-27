@@ -1,9 +1,9 @@
     header {
       text-align: center;
-      background: url("images/Snoopy/endofday.png") no-repeat;
-      background-size: contain;
-      color: white;
-      background-attachment: fixed;
+      background: url("images/Snoopy/redbaron.jpg");
+      background-size: 600px 230px;
+      color: black;
+      
     }
     .nav {
       color: white;
@@ -39,13 +39,3 @@
         display: block;
       }
     }
-
-
-#button1, #button2 {
-	/* rounded corners */
-    -webkit-border-radius: 6px;
-          border-radius: 6px; 
-    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-	font-weight: bold;
-
-}

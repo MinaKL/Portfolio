@@ -1,15 +1,17 @@
     header {
       text-align: center;
-      background: url("images/Snoopy/endofday.png") no-repeat;
-      background-size: contain;
-      color: white;
-      background-attachment: fixed;
+      background: url("images/Snoopy/techn.png");
+      background-size: 600px 230px;
+      color: black;
+      
     }
     .nav {
       color: white;
     }
     h1 {
-      font-size: 70px;
+      font-size: 60px;
+       color: black;
+    font-family: AndaleMono;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -39,13 +41,3 @@
         display: block;
       }
     }
-
-
-#button1, #button2 {
-	/* rounded corners */
-    -webkit-border-radius: 6px;
-          border-radius: 6px; 
-    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-	font-weight: bold;
-
-}
